@@ -98,8 +98,8 @@ img {
 }
 
 h1 {
-  color: #fff;
-  font-family: "Roboto";
+  color: #f4f3f3;
+  font-family: "Montserrat";
   font-weight: bolder !important;
   font-size: 46px !important;
   margin-bottom: 0px;
@@ -111,9 +111,9 @@ h1 {
 }
 
 p {
-  color: rgb(237, 237, 237);
+  color: #ededed;
   font-weight: 200;
-  font-family: "Roboto";
+  font-family: "Open Sans";
   line-height: 28px;
   margin-top: 0;
   margin-bottom: 0;
@@ -127,10 +127,11 @@ button {
   margin-right: 10px !important;
   padding: 14px 30px;
   border: none;
-  color: #000;
+  color: #000000;
   font-size: 12px !important;
   letter-spacing: 4px;
   font-weight: 300;
+  font-family: "Open Sans";
 }
 
 #one {
@@ -159,7 +160,7 @@ button {
 }
 
 .media ul li a ion-icon {
-  color: grey;
+  color: #ededed;
   padding: 12px 0;
   display: inline-block !important;
 }
@@ -180,7 +181,7 @@ button {
   color: grey;
   font-size: 15px;
   right: 0;
-  font-family: Roboto;
+  font-family: "Libre Baskerville";
   font-weight: 100;
   margin-right: 2em;
   bottom: 40px;

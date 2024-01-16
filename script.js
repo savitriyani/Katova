@@ -1,4 +1,3 @@
-
       TweenMax.to(".loading-screen", 4, {
             delay: 6.6,
             top: "-110%",
@@ -82,7 +81,7 @@
             ease: Expo.easeInOut
       });
   
-      var t1 = new TimelineMax();
+      let t1 = new TimelineMax();
 
       t1.from(".ringOne", 4, {
             delay: 0.4,
@@ -104,7 +103,7 @@
             ease: Expo.easeInOut
       },"-=5");
 
-var textWrapper = document.querySelector('.ml7 .letters');
+const textWrapper = document.querySelector('.ml7 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: false})
@@ -120,4 +119,3 @@ anime.timeline({loop: false})
       return 9000 + 50 * i;
     }
   });
-
